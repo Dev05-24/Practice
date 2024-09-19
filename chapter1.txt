@@ -1,1 +1,20 @@
 It was the best of times, it was the worst of times.
+first of all initialize git by command git init then ls -a to check the hidden files in directory.
+
+In order to keep track changes of my files i need to add the file in a place called staging area
+
+which is basically a place where we can choose which files  from directory should be committed.
+
+git status to check which files are currently in staging area
+
+git add file_name to add the file in staging area
+
+git commit -m "message" to commit the file in local repository -m means adding message.
+
+git log to see what i just committed
+
+Now let's suppose i have made some changes in one of my files name chapter1.txt which i don't wanted so first let's check git status it will tell me that file chapter1.txt is modified
+
+git diff chapter1.txt show me the comparison between the previous and current content
+
+git checkout chapter1.txt will revert back the work i done to previous one
