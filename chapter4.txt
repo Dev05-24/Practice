@@ -9,3 +9,4 @@ it will tell u how many branch we have and there is * sign in starting of the br
 to switch between branch we use commnad ( git checkout branch_name )
 
 if we have same files in main branch and another branch we created then we can see the content of both the files are different and later on we can merge the files 
+command for merge is ( git merge branch_name )
