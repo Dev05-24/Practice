@@ -18,3 +18,15 @@ Now let's suppose i have made some changes in one of my files name chapter1.txt 
 git diff chapter1.txt show me the comparison between the previous and current content
 
 git checkout chapter1.txt will revert back the work i done to previous one
+
+first of all we have a 
+1. working directory : where all of my files are available
+2. staging area : which is a place where we add some files using ( git add file_name ) and choose which file to be added in repo or not
+3. loacl repository : a repo we create locally in our computer
+         first go to github then create a new repo name it set it to public then we get some commands there is a command for pushing in existing repo there we have a url
+         so in our terminal first put command ( git remote add origin our_url )  
+         then ( git push -u origin main ) now our code is pushed to our remote repository
+4. remote repository : which is our github
+         in git staging area after few commits we have a timeline of our commits which are called Main Branch
+
+         like we do some commits like commit 1, commit 2, and so on then we have Branch of commit in local repo when we use git push command then all these commit are passed to remoter repo
