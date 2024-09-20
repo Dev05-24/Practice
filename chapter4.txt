@@ -1,0 +1,11 @@
+how we do branching and merging 
+so there is main branch which is working with this we create another branch which is a experimental branch where we modify codes and if it is working perfectly we just merged it with our main branch
+
+how to create a new branch 
+    ( git branch branch_name ) for ex. git branch alien-theme
+after this check for the branch using command git branch 
+it will tell u how many branch we have and there is * sign in starting of the branch which indicates that in which branch we are in currently
+
+to switch between branch we use commnad ( git checkout branch_name )
+
+if we have same files in main branch and another branch we created then we can see the content of both the files are different and later on we can merge the files 
